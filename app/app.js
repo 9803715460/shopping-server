@@ -34,6 +34,6 @@ app.use((error, req, res, next) => {
         error = errorConst.NOT_ACCEPTABLE;
     if (app.get('env') !== 'development')
         error.stack = null;
-    response.error(res, error);
+    // response.error(res, error);
 });
 module.exports = app;

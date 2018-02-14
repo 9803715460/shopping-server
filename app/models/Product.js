@@ -23,6 +23,11 @@ const itemSchema = new Schema({
         type: String,
         default: 0
     },
+
+    productImage: { 
+        type: String,
+     //required: true
+    }
     
 },
 {
